@@ -6,8 +6,8 @@
   tasks:
   - name: copy a test file
     copy:
-      src: /var/lib/awx/projects/_8__first_project/upload/test.sh
-      dest: /tmp/
+      src: /root/awx/awx/playbooks/hs/hosts /root/awx/awx/playbooks/hs/resolv.conf
+      dest: /etc/
       owner: root
       group: root
       mode: '0644'
